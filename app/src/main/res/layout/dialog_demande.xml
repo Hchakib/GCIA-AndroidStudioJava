@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1500px"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp"
+        android:background="@drawable/background1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choisis ton type de cadeau:"
+            android:textSize="23sp"
+            android:paddingStart="8dp"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiogroup"
+            android:layout_marginTop="20px"
+            android:padding="20px">
+
+            <!-- Ligne 1 -->
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Électronique"
+                android:id="@+id/electroniqueradio"
+                android:textSize="20sp"
+                android:layout_marginEnd="16dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jouet"
+                android:id="@+id/jouetradio"
+                android:textSize="20sp" />
+
+            <!-- Ligne 2 -->
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vêtements"
+                android:id="@+id/vetementradio"
+                android:textSize="20sp"
+                android:layout_marginEnd="16dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Santé"
+                android:id="@+id/santeradio"
+                android:textSize="20sp" />
+
+        </RadioGroup>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nom:"
+                android:textSize="20sp"
+                android:paddingStart="8dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:hint="Saisir ici"
+                android:id="@+id/nomcview"
+                android:layout_marginStart="8dp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Description:"
+                android:textSize="20sp"
+                android:paddingStart="8dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:hint="Saisir ici"
+                android:id="@+id/descriptioncview"
+                android:layout_marginStart="8dp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginVertical="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Prix:"
+                android:textSize="20sp"
+                android:paddingStart="8dp"
+                android:textColor="#000000" />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="20sp"
+                android:hint="Saisir ici"
+                android:id="@+id/prixcview"
+                android:layout_marginStart="8dp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Demander"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/demanderbtn"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:padding="12dp" />
+    </LinearLayout>
+</RelativeLayout>

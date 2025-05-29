@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:id="@+id/img"/>
+
+        <LinearLayout
+            android:layout_width="800px"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enfant: "
+                android:textSize="55px"
+                android:id="@+id/enfantview"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom: "
+                android:textSize="55px"
+                android:id="@+id/nomview"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prix: "
+                android:textSize="55px"
+                android:id="@+id/prixview"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description: "
+                android:textSize="50px"
+                android:id="@+id/descriptionview"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.widget.RelativeLayout>
