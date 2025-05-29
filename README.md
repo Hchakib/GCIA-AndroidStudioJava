@@ -1,34 +1,39 @@
-# GCIA - Android Java App
+# 🎁 GCIA - Gestion de Cadeaux du Père Noël 🎅
 
-An Android Studio project built in Java for managing income and expenses, helping users control their debt ratio and financial capacity.
+Une application Android développée en Java qui permet de gérer les cadeaux des enfants pour Noël. L’application offre une interface simple pour enregistrer les enfants, leurs souhaits et voir le total des cadeaux.
 
-## 📱 Features
+---
 
-- Add/modify/delete incomes and expenses
-- View total income, total expenses, and debt ratio
-- Calculate borrowing capacity
-- Dual Activity architecture
+## ✨ Fonctionnalités principales
 
-## 📂 Project Structure
+- ➕ Ajouter un enfant avec son prénom et sa liste de cadeaux
+- 📝 Modifier ou supprimer un enregistrement
+- 📋 Voir la liste complète des enfants avec leurs souhaits
+- 🎄 Calculer le nombre total de cadeaux à préparer
+- 🧮 Interface intuitive répartie sur deux activités
 
-- `MainActivity.java`: Manage financial entries (add/update/delete)
-- `SecondActivity.java`: Calculate financial summary
-- `res/layout/`: Contains XML layout files for UI
-- `AndroidManifest.xml`: App configuration
-- `build.gradle`: Gradle configuration
+---
 
-## 🛠️ Technologies
+## 🧱 Structure du projet
+
+- `MainActivity.java` – Permet d’ajouter, modifier et supprimer des enfants
+- `SecondActivity.java` – Affiche un résumé (nombre total de cadeaux, enfants)
+- `res/layout/` – Contient les fichiers XML des interfaces graphiques
+- `model/` – (si présent) contient les classes Java représentant les entités
+- `AndroidManifest.xml` – Déclaration des activités et permissions
+
+---
+
+## ⚙️ Technologies utilisées
 
 - Java
 - Android Studio
-- XML Layouts
+- XML pour les interfaces graphiques
 
-## 🚀 How to Run
+---
 
-1. Clone the repository
-2. Open with Android Studio
-3. Build the project and run it on an emulator or physical device
+## 🚀 Comment exécuter le projet
 
-## 🧑‍💻 Author
-
-Hocine Chakib – [https://github.com/Hchakib](https://github.com/Hchakib)
+1. **Cloner le projet :**
+   ```bash
+   git clone https://github.com/Hchakib/GCIA-AndroidStudioJava.git
